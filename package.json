@@ -1,0 +1,24 @@
+{
+  "name": "gps",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bluebird": "^3.5.5",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "exif-parser": "^0.1.12",
+    "express": "~4.16.1",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "imagemagick": "^0.1.3",
+    "morgan": "~1.9.1",
+    "passport": "^0.4.0",
+    "passport-yandex-token": "^2.1.0",
+    "url-metadata": "^2.4.0",
+    "yandex-disk": "0.0.8"
+  }
+}
